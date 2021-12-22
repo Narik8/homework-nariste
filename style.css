@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,400;1,300&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family: "Fira Sans Extra Condensed";
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(84, 155, 128, 0.87);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+width: 250px;
+background-color: white;
+padding: 20px 40px;
+border-radius: 15px;
+}
+.input-text{
+  width: 100%;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-top: 5px;
+  
+}
+.form-title{
+  
+  font-size: 40px;
+}
+.form-text{
+  font-size: 12 px;
+}
+.button{
+ width: 100%;
+ height: 30px;
+ border: none;
+ border-radius: 5px;
+ background-color: rgb(27, 74, 177);
+ margin-top: 15px;
+color: white;
+}
+.text-gender{
+  font-size: 16px;
+}
+.accepted{
+  margin-top: 8px;
+}
